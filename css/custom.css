@@ -17,7 +17,8 @@
   --primary: #0B2D4C;   /* navy */
   --primary2:#123A63;   /* hover navy */
   --text:    #333333;
-  --heading: #222222;
+  --heading: #f1eaea;
+  --h2: #F5F5F5;
   --muted:   #8a8a8a;
   --bg:      #F3F4F6;
   --white:   #FFFFFF;
@@ -31,9 +32,13 @@ body{
   color: var(--text) !important;
 }
 
-h1,h2,h3,h4,h5,h6,
+h1,h3,h4,h5,h6,
 .h1,.h2,.h3,.h4,.h5,.h6{
   color: var(--heading) !important;
+}
+
+h2 {
+    color: var(--h2) !important;
 }
 
 /* Links */
