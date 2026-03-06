@@ -1,0 +1,115 @@
+/*!
+  * Item: CodeX
+  * Description:  Personal Portfolio / Resume / CV / vCard Template
+  * Author/Developer: Exill
+  * Author/Developer URL: https://themeforest.net/user/exill
+  * Version: v1.0.0
+  * License: Themeforest Standard Licenses: https://themeforest.net/licenses
+  */
+
+/*----------- ADD YOUR CUSTOM CSS STYLES BELOW -----------*/
+/* =========================
+   MAX PROPERTY CARE THEME
+   Put this at the END of css/custom.css
+   ========================= */
+
+:root{
+  --primary: #0B2D4C;   /* navy */
+  --primary2:#123A63;   /* hover navy */
+  --text:    #333333;
+  --heading: #222222;
+  --muted:   #8a8a8a;
+  --bg:      #F3F4F6;
+  --white:   #FFFFFF;
+  --sidebar: #111111;
+  --border:  rgba(214,214,214,.8);
+}
+
+/* Global text */
+body{
+  background-color: var(--white) !important;
+  color: var(--text) !important;
+}
+
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6{
+  color: var(--heading) !important;
+}
+
+/* Links */
+a{ transition: all .15s ease-in-out; }
+a:hover,a:focus{ text-decoration:none; }
+
+/* Sections */
+.single-section{ background-color: var(--white) !important; }
+.single-section.alt-bg{ background-color: var(--bg) !important; }
+
+/* Buttons (main accent) */
+.button-main.button-scheme,
+.btn.button-scheme,
+.hire-btn.button-scheme{
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: var(--white) !important;
+}
+
+.button-main.button-scheme:hover,
+.btn.button-scheme:hover,
+.hire-btn.button-scheme:hover{
+  background-color: var(--primary2) !important;
+  border-color: var(--primary2) !important;
+  color: var(--white) !important;
+}
+
+/* Services cards */
+.services-area .single-service,
+.testimonials-area .single-review{
+  border: 1px solid var(--border) !important;
+  background-color: var(--white) !important;
+}
+
+.services-area .single-service .service-icon,
+.testimonials-area .single-review .review-icon,
+.footer-area .contact-info .info-icon{
+  color: var(--primary) !important;
+}
+
+/* Sidebar */
+.sidebar{
+  background-color: var(--sidebar) !important;
+}
+
+.sidebar .sidebar-header .sidebar-name{ color: var(--white) !important; }
+.sidebar .sidebar-header .sidebar-status{ color: var(--muted) !important; }
+
+.sidebar .sidebar-menu .list-menu .nav-link{
+  color: rgba(232,232,232,.95) !important;
+}
+
+.sidebar .sidebar-menu .list-menu .nav-link:hover,
+.sidebar .sidebar-menu .list-menu .nav-link:focus{
+  color: var(--primary) !important;
+}
+
+/* Active state (если скрипт добавляет .active) */
+.sidebar .sidebar-menu .list-menu .nav-link.active{
+  color: var(--primary) !important;
+}
+
+/* Mobile navbar */
+.mobile-navbar:before{ background-color: #222 !important; }
+.mobile-navbar .navbar-toggler{ background-color:#333 !important; border-color:#222 !important; }
+
+/* Footer */
+.footer-area{
+  background-color: var(--sidebar) !important;
+  border-left: 1px solid rgba(255,255,255,.08) !important;
+  color: var(--white) !important;
+}
+.footer-area .contact-info .info-content,
+.footer-area .contact-info .info-content a{
+  color:#dcdcdc !important;
+}
+.footer-area .mini-footer .copyright-notice{
+  color:#c7c7c7 !important;
+}
