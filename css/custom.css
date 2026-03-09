@@ -19,6 +19,7 @@
   --text:    #333333;
   --heading: #f1eaea;
   --h2: #3812be2f;
+  --h6:var(--h2)
   --muted:   #8a8a8a;
   --bg:      #F3F4F6;
   --white:   #FFFFFF;
@@ -32,7 +33,7 @@ body{
   color: var(--text) !important;
 }
 
-h1,h3,h4,h5,h6,
+h1,h3,h4,h5,
 .h1,.h2,.h3,.h4,.h5,.h6{
   color: var(--heading) !important;
 }
@@ -40,7 +41,9 @@ h1,h3,h4,h5,h6,
 h2 {
     color: var(--h2) !important;
 }
-
+h6 {
+  color:var(--h6) !important
+}
 /* Links */
 a{ transition: all .15s ease-in-out; }
 a:hover,a:focus{ text-decoration:none; }
