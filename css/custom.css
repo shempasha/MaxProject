@@ -18,9 +18,10 @@
   --primary2:#123A63;   /* hover navy */
   --text:    #333333;
   --heading: #f1eaea;
-  --h2: #3812be2f;
+  --h2: #3365b0;
   --h6:var(--h2)
   --muted:   #8a8a8a;
+  --pasha: #FFFFFF;
   --bg:      #F3F4F6;
   --white:   #FFFFFF;
   --sidebar: #111111;
@@ -88,7 +89,8 @@ a:hover,a:focus{ text-decoration:none; }
 }
 
 .sidebar .sidebar-header .sidebar-name{ color: var(--white) !important; }
-.sidebar .sidebar-header .sidebar-status{ color: var(--muted) !important; }
+.sidebar .sidebar-header{ color: var(--muted) !important; }
+.sidebar-status{ color: var(--pasha) !important; }
 
 .sidebar .sidebar-menu .list-menu .nav-link{
   color: rgba(232,232,232,.95) !important;
