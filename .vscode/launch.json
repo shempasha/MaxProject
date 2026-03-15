@@ -2,11 +2,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "chrome",
+      "name": "Launch in Safari",
+      "type": "pwa-msedge",
       "request": "launch",
-      "name": "Launch localhost",
-      "url": "http://127.0.0.1:5500",
-      "webRoot": "${workspaceFolder}"
+      "file": "${workspaceFolder}/index.html",
+      "runtimeExecutable": "/Applications/Safari.app/Contents/MacOS/Safari"
     }
   ]
 }
